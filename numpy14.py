@@ -1,8 +1,6 @@
 import numpy as np
-
 def main():
     print("=== NumPy Program Demo ===\n")
-
     # 1. Creating arrays
     arr1 = np.array([1, 2, 3, 4, 5])
     arr2 = np.array([[1, 2, 3], [4, 5, 6]])
