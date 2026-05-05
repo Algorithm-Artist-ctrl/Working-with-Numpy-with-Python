@@ -5,5 +5,4 @@ data = {
     'Marks': [85, 90, 78]
 }
 df = pd.DataFrame(data)
-print("\nNames:")
 print(df['Name'])
