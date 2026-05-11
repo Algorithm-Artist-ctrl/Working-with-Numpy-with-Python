@@ -7,5 +7,4 @@ data = {
 df = pd.DataFrame(data)
 df["Total"] = np.sum(df[["Math", "Science"]], axis=1)
 df["Percentage"] = df["Total"] / 2
-
 print(df)
