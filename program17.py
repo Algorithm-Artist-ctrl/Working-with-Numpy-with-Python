@@ -1,15 +1,19 @@
 import numpy as np
 import pandas as pd
-
-employees = ["Aman", "Riya", "Kunal", "Priya"]
-salary = np.array([45000, 52000, 48000, 60000])
-
-df = pd.DataFrame({
-    "Employee": employees,
-    "Salary": salary
-})
-
-df["Bonus"] = df["Salary"] * 0.10
-df["Total"] = df["Salary"] + df["Bonus"]
-
+data = {
+    "Product": ["Laptop", "Mouse", "Keyboard", "Monitor", "Laptop"],
+    "Sales": [50000, 2000, 3000, 15000, 55000],
+    "Quantity": [5, 20, 15, 7, 6]
+}
+df = pd.DataFrame(data)
+print("Sales Data:\n")
 print(df)
+total_sales = np.sum(df["Sales"])
+print("\nTotal Sales:", total_sales)
+avg_sales = np.mean(df["Sales"])
+print("Average Sales:", avg_sales)
+max_sale = np.max(df["Sales"])
+print("Highest Sale:", max_sale)
+summary = df.groupby("Product")["Sales"].sum()
+print("\nProduct-wise Sales Summary:\n")
+print(summary)
