@@ -6,7 +6,7 @@ data = {
     "Quantity": [5, 20, 15, 7, 6]
 }
 df = pd.DataFrame(data)
-print("Sales Data:\n")
+print("SalesData:\n")
 print(df)
 total_sales = np.sum(df["Sales"])
 print("\nTotal Sales:", total_sales)
