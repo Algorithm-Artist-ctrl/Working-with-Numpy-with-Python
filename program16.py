@@ -8,5 +8,4 @@ df = pd.DataFrame({
 })
 df["Bonus"] = df["Salary"] * 0.10
 df["Total"] = df["Salary"] + df["Bonus"]
-
 print(df)
