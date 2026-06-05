@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-numbers = np.arange(1, 21)
+numbers = np.arange(1,89, 21)
 df = pd.DataFrame({
     "Numbers": numbers
 })
