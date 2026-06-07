@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 data = {
-    "Product": ["Laptop", "Mouse", "Keyboard", "Monitor", "Laptop"],
+    "Product": ["Laptop", "Mouse", "Keyboard", "Monitor", "speaker","Laptop"],
     "Sales": [50000, 2000, 3000, 15000, 55000],
     "Quantity": [5, 20, 15, 7, 6]
 }
