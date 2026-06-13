@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 data = {
     "Product": ["Laptop", "Mouse", "Keyboard", "Monitor", "speaker","Laptop"],
-    "Sales": [50000, 2000,7000, 3000,8900,6578,564,5677 ,15000, 55000],
+    "Sales": [50000, 2000,7000, 3000,8900,564,5677 ,15000, 55000],
     "Quantity": [5, 20, 15, 7, 6]
 }
 df = pd.DataFrame(data)
