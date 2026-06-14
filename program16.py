@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 employees = ["Aman", "Riya", "Kunal", "Priya"]
-salary = np.array([45000, 52000, 48000, 60000])
+salary = np.array([45000, 52000, 908,48000, 60000])
 df = pd.DataFrame({
     "Employee": employees,
     "Salary": salary
