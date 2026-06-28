@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-marks = np.array([78, 85, 90,89, 66,78,89, 88])
+marks = np.array([78, 85, 90,89, 78,66,78,89, 88])
 df = pd.DataFrame({
     "Marks": marks
 })
