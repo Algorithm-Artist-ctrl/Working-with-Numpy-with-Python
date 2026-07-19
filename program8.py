@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-arr = np.random.randint(1,67, 87,89,89,88,100,908,90, 10)
+arr = np.random.randint(1,67, 7,89,89,88,100,908,90, 10)
 df = pd.DataFrame({
     "Numbers": arr
 })
