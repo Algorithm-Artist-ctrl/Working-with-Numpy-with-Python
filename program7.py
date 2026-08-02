@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 data = {
-    "Marks": [97,89, np.nan, 86, np.nan, 95]
+    "Marks": [90,89, np.nan, 86, np.nan, 95]
 }
 df = pd.DataFrame(data)
 average = np.nanmean(df["Marks"])
